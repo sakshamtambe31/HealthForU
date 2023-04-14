@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthCare Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ca19f27f58.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="vid-par">
+        <video src="imagica/v2.mp4" width="440px"  id="my-vid" autoplay loop muted>
+        </video>
+    </section>  
+ <div id="header">
+    <div class="container">
+        <nav>
+            <img src="imagica/top logo.png " class="logo">
+            <p>HealthForU</p>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About US</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Campus</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>It is health</p>
+            <h1>that is real wealth and not pieces of gold and silver. <br><span>Mahatma Gandhi</span></h1>
+        </div>
+    </div>
+   <!-- ------------------ABOUT---------------- --> 
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="imagica/hea.jpg" height="530px">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Health</h1>
+                <p>The word health refers to a state of complete emotional and physical well-being. Healthcare exists to help people maintain this optimal state of health</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Requirements</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Needs</p>
+                    <p class="tab-links" onclick="opentab('Certificates')">Diet</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Veg</span><br>Green Vegitables</li>
+                        <li><span>Non-Veg</span><br>Meat, Chicken & Fish</li>
+                        <li><span>Breakfast</span><br>Milk and Egg</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>Eat Healthy Food</span><br>Eat nutritious foods as they are essential to physiological survival</li>
+                        <li><span>Get Physical Exercise</span><br>Physical activity is important in reducing your risk of obesity, diabetes and heart disease.</li>
+                        <li><span>Take Preventive Measures</span><br>Avoid distractions while driving like texting and talking on the cell phone</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Certificates">
+                    <ul>
+                        <li><span>For adults</span><br>Fruit, vegetables, nuts and whole grains</li>
+                        <li><span>For infants</span><br>Infants should be breastfed exclusively during the first 6 months of life.</li>
+                        <li ><span>For Old Age</span><br> Older adults generally have lower calorie needs, but similar or even increased nutrient needs compared to younger adults.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+
+<!-- ----------------SERVICES--------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Our Services</h1>
+        <div class="services-list">
+            <div>
+                <h2>Doctors</h2>
+                <p>Consult a Doctors Availiable 24X7</p>
+                <a href="">Learn more</a>
+            </div>
+            <div>
+                <h2>Health Checkup</h2>
+                <p>Check your health anywhere from the world</p>
+                <a href="">Learn more</a>
+            </div>
+            <div>
+               
+                <h2>Fitness Chart</h2>
+                <p>Check your BMI(Body Mass Index)</p>
+                <a href="">Learn more</a>
+            </div>
+        </div>
+    </div>
+    <!-- =======PORTFOLIO=========-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Our Campus</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="imagica/aim1.jpg" >
+                    <div class="layer">
+                        <h3>Pune Branch</h3>
+                        <p>Near Sihgad University</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="imagica/aim2.jpg" >
+                    <div class="layer">
+                        <h3>Delhi Campus</h3>
+                        <p>Near Noida sector 12</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+                <div class="work">
+                    <img src="imagica/aim4.jpg">
+                    <div class="layer">
+                        <h3>Patna Campus</h3>
+                        <p>Near Railway Station</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="" class="btn">See More</a>
+    </div>
+</div>
+<!-- =============CONTACT=========== -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="sub-title">Contact Us</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>healthforyou@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>7972224261</p>
+            <div class="social-icons">
+                <a href="https://instagram.com/saksham_tambe31?igshid=YmMyMTA2M2Y=/"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/saksham-tambe-438354227/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/sakshamtambe31/"><i class="fa-brands fa-github"></i></a>
+                <a href="https://mail.google.com/mail/mu/mp/575/#tl/priority/%5Esmartlabel_personal/"><i class="fa-sharp fa-solid fa-envelope"></i></a>
+            </div>
+            <a href="imagica/cv.pdf" download class="btn btn2">Download Diet Chart</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>Made By Team HealthForU With <i class="fa-solid fa-heart"></i></p>
+</div>
+</div>
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script> 
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyeQKBMZkax00RyauxgRpeGFqpqA3_JzfdsaYzkNr3owgq6kDo8FZkVSEIa5qzEuvo/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
